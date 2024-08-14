@@ -5,8 +5,9 @@ import { SEARCH_REPO, ADD_REPO } from './queries'
 import { createAsyncThunk } from '@reduxjs/toolkit'
 import shortid from 'shortid'
 
+// !!! Обязательно вставьте на место YOUR_API_KEY свой ключ из GitHub !!!
 const headers = {
-    Authorization: `Bearer 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`,
+    Authorization: `Bearer YOUR_API_KEY`, // должно быть как то так: `Bearer adf0a9ds09fb9adejf`
 };
 
 //Интерфейс для языка, в массиве languages
