@@ -1,0 +1,89 @@
+$grayColor: #4f4f4f;
+$headColor: #00838F;
+
+.afterRootDiv {
+  display: flex;
+  flex-direction: column;
+  height: 100%
+}
+
+.headText {
+  margin-left: 25px;
+  font-weight: normal
+}
+
+.mainFooter {
+  background-color: $grayColor;
+  height: 4.2%;
+}
+
+.welcomeText {
+  opacity: 0.6;
+  color: $grayColor;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.horizontalUl {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-right: 20px;
+}
+
+.horizontalUlTabs {
+  display: flex;
+  justify-content: left;
+  list-style: none;
+  padding-right: 20px;
+}
+
+.mainLanguageTab {
+  height: 30px;
+}
+
+.about {
+  width: 30%;
+  height: 100%;
+  background-color: #F2F2F2
+}
+
+.mainBlocks {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: left;
+  background-color: $headColor;
+  width: 100%;
+}
+
+.searchInput {
+  color: white;
+}
+
+.li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.liLeft {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+}
